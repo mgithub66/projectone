@@ -165,3 +165,34 @@ form .form-control:focus{
     display: none;
   }
 }
+
+
+.discount-slider-prev,.discount-slider-next{
+	
+	opacity: 1.0 !important;
+}
+
+.discount-slider-prev,.discount-slider-next i{
+  color: #ffffff !important;
+}
+
+.discount-slider-prev{
+	background: #2ca5fa;
+	height: 50px;
+	width: 30px !important;
+	margin-left: -1.1%;
+	clip-path: polygon(0 50%, 100% 100%, 100% 0);
+	box-sizing: border-box;
+	top: 50% !important;
+
+}
+.discount-slider-next{
+	background: #2ca5fa;
+	height: 50px;
+	width: 30px !important;
+	margin-right: -1.2%;
+	clip-path: polygon(100% 50%, 0 100%, 0 0);
+	box-sizing: border-box;
+	top: 50% !important;	
+}
+
