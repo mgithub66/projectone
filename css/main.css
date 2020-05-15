@@ -196,3 +196,9 @@ form .form-control:focus{
 	top: 50% !important;	
 }
 
+.custom-card-bg{
+	background-image:url('../img/fashion-discount-slider.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}

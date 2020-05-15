@@ -53,9 +53,9 @@ jssor_slider1_init = function () {
             //#endregion responsive code end
         };
 
-        $(document).ready(function() {
-            $(".carousel").on("touchstart", function(event){
-        var xClick = event.originalEvent.touches[0].pageX;
+    $(document).ready(function() {
+     $(".carousel").on("touchstart", function(event){
+    var xClick = event.originalEvent.touches[0].pageX;
     $(this).one("touchmove", function(event){
         var xMove = event.originalEvent.touches[0].pageX;
         if( Math.floor(xClick - xMove) > 5 ){
