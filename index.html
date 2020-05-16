@@ -9,10 +9,9 @@
       crossorigin="anonymous"
     />
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>subrosa</title>
   </head>
   <body>
@@ -283,14 +282,12 @@
     <div class="container p-0 mt-3">
       <div
         id="discount-slider"
-        class="carousel slide carousel-multi-item"
+        class="carousel slide carousel-multi-item v-2"
         data-ride="carousel"
       >
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-          <!--First slide-->
+        <div class="carousel-inner v-2" role="listbox">
           <div class="carousel-item active">
-            <div class="col-md-4" style="float: left;">
+            <div class="col-12 col-md-4">
               <div class="card mb-2">
                 <div class="card-body">
                   <h3
@@ -370,8 +367,9 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-md-4" style="float: left;">
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
               <div class="card mb-2">
                 <div class="card-body custom-card-bg-primary">
                   <h3 class="card-title ml-4 d-block" style="direction: rtl;">
@@ -437,7 +435,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4" style="float: left;">
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
               <div class="card mb-2">
                 <div class="card-body custom-card-bg-secondary">
                   <h3
@@ -492,11 +492,8 @@
               </div>
             </div>
           </div>
-          <!--/.First slide-->
-
-          <!--Second slide-->
           <div class="carousel-item">
-            <div class="col-md-4" style="float: left;">
+            <div class="col-12 col-md-4">
               <div class="card mb-2">
                 <div class="card-body">
                   <h3
@@ -576,8 +573,9 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-md-4" style="float: left;">
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
               <div class="card mb-2">
                 <div class="card-body custom-card-bg-primary">
                   <h3 class="card-title ml-4 d-block" style="direction: rtl;">
@@ -643,14 +641,17 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4" style="float: left;">
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
               <div class="card mb-2">
                 <div class="card-body custom-card-bg-secondary">
                   <h3
                     class="card-title ml-4 d-block text-primary"
                     style="direction: rtl;"
                   >
-                    20% تخفیف غیر رسمی <br />و بیشتر
+                    20% تخفیف غیر رسمی <br />
+                    و بیشتر
                   </h3>
                   <ul class="list-group bg-transparent border-0">
                     <li class="list-group-item bg-transparent border-0">
@@ -697,27 +698,6 @@
               </div>
             </div>
           </div>
-          <!--/.Second slide-->
-        </div>
-        <!--/.Slides-->
-        <!--controls-->
-        <div class="d-none d-md-block">
-          <a
-            class="discount-slider-prev carousel-control-prev"
-            href="#discount-slider"
-            role="button"
-            data-slide="prev"
-          >
-            <i class="fas fa-chevron-left"></i>
-          </a>
-          <a
-            class="discount-slider-next carousel-control-next"
-            href="#discount-slider"
-            role="button"
-            data-slide="next"
-          >
-            <i class="fas fa-chevron-right"></i>
-          </a>
         </div>
       </div>
     </div>
@@ -743,6 +723,7 @@
     ></script>
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+    <script src="js/mdb.min.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript">
       jssor_slider1_init();
