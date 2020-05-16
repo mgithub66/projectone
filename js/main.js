@@ -102,4 +102,7 @@ $(document).ready(function () {
       next.children(":first-child").clone().appendTo($(this));
     }
   });
+  $("#latest-products-slider,#discount-slider").carousel({
+    touch: true, // default
+  });
 });
