@@ -26,16 +26,8 @@ body {
   vertical-align: middle;
   display: inline-block;
   margin-bottom: 5px;
-}
-
-button .fa-caret-down {
-  padding-left: 20px;
-}
-form input {
-  direction: rtl;
-}
-form .form-control:focus {
-  box-shadow: none;
+  position: absolute;
+  right: 0;
 }
 
 .btn.active.focus,
@@ -180,7 +172,7 @@ form .form-control:focus {
   margin-left: -1.1%;
   clip-path: polygon(0 50%, 100% 100%, 100% 0);
   box-sizing: border-box;
-  top: 50% !important;
+  top: 40% !important;
 }
 .discount-slider-next {
   background: #2ca5fa;
@@ -189,7 +181,7 @@ form .form-control:focus {
   margin-right: -1.2%;
   clip-path: polygon(100% 50%, 0 100%, 0 0);
   box-sizing: border-box;
-  top: 50% !important;
+  top: 40% !important;
 }
 
 .custom-card-bg-primary {
