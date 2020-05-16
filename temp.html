@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row main-header">
+          <div class="col-lg-3 col-xl-3">
+            <div class="logo mt-2 justify-content-center d-flex">
+              subrosa
+            </div>
+          </div>
+          <div class="col-lg-9 col-xl-6 mt-4">
+            <div class="search-box">
+              <form>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <button
+                      class="d-none d-md-block btn bg-white border-0 rounded-0"
+                      style="background-color: transparent;"
+                      type="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      همه گروه ها<i class="fas fa-caret-down"></i
+                      ><span class="v-dash">|</span>
+                    </button>
+                    <div class="dropdown-menu border-0">
+                      <a class="dropdown-item" href="#">Category One</a>
+                      <a class="dropdown-item" href="#">Category Two</a>
+                      <a class="dropdown-item" href="#">Category Three</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated Category</a>
+                    </div>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control border-0"
+                    aria-label="Search input with dropdown button"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      class="btn btn-primary border-0 rounded-0"
+                      type="button"
+                    >
+                      جست و جو
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-xl-3 d-flex justify-content-center cart-bar">
+            <div class="login p-3">
+              <i class="fas fa-user fa-2x"></i>
+              <div class="login-text">ورود</div>
+            </div>
+            <div class="sign p-3">
+              <i class="fas fa-sign-in-alt fa-2x"></i>
+              <div class="sign-text">ثبت نام</div>
+            </div>
+            <div class="cart p-3">
+              <div class="cart-icon">
+                <i class="fas fa-shopping-cart fa-2x"></i>
+                <span class="cart-counter">0</span>
+                <i class="fas fa-caret-down"></i>
+              </div>
+              <div class="cart-text">سبد خرید</div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- main navbar -->
+    <nav class="navbar navbar-expand-sm nav-custom" id="main-nav">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="bar-custom"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">فروشگاه لباس</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">کتاب و صوتی تصویری</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">حراج کلی</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">تلفن همراه</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="d-none d-md-block info-area bg-white mb-2 p-1">
+      <div class="container-fluid d-flex justify-content-around">
+        <div><i class="fas fa-shipping-fast"></i>&emsp;ارسال رایگان</div>
+        <div style="direction: rtl;">
+          30 روز ضمانت بازگشت وجه &emsp;<i class="far fa-clock"></i>
+        </div>
+        <div><i class="far fa-life-ring"></i>&emsp;پشتیبانی 24 ساعته</div>
+      </div>
+    </section>
+    <!--showcase-->
+    <div class="container">
+      <section class="mt-4 showcase">
+        <div class="row">
+          <div class="col-lg-8 col-xl-8">
+            <div
+              style="
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                overflow: hidden;
+              "
+            >
+              <div
+                id="jssor_1"
+                style="
+                  visibility: hidden;
+                  position: relative;
+                  top: 0px;
+                  left: 0px;
+                  width: 980px;
+                  height: 478px;
+                  overflow: hidden;
+                "
+              >
+                <div
+                  data-u="slides"
+                  style="
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 980px;
+                    height: 478px;
+                    overflow: hidden;
+                  "
+                >
+                  <div><img data-u="image" src="img/mobile.jpg" /></div>
+                  <div><img data-u="image" src="img/fashion-women.jpg" /></div>
+                  <div><img data-u="image" src="img/book.jpg" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xl-4">
+            <div class="bg-white">
+              <h1 class="offer-header p-2">فروش ویژه امروز</h1>
+              <p class="sub-header">:اتمام در</p>
+              <p class="clock pt-2">
+                <span class="time">12</span><span class="colon">:</span>
+                <span class="time">08</span><span class="colon">:</span>
+                <span class="time">13</span><span class="colon"></span>
+              </p>
+              <img
+                class="d-block m-auto img-fluid"
+                src="img/mobile-offer.jpg"
+                alt="فروش ویژه موبایل"
+              />
+              <div class="porduct-text p-2">Samsung 16GB MicroSD Class 6</div>
+              <div class="pt-4 d-flex d-flex-row justify-content-around">
+                <p class="porduct-price" style="direction: rtl;">
+                  3,500,000 تومان
+                </p>
+                <p class="porduct-discount" style="direction: rtl;">
+                  5,000,000 تومان
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--Sub Nav-->
+    <div class="container">
+      <nav class="mt-3 navbar bg-white navbar-expand-xl" id="sub-nav">
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#subNavCollapse"
+        >
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="subNavCollapse">
+          <ul class="navbar-nav ml-auto menu-custom">
+            <h5 class="d-none d-xl-block navbar-brand">
+              <span class="d-block">انتخاب سریع</span
+              ><i class="far fa-arrow-alt-circle-right"></i>
+            </h5>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                موبایل
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><span>&#58;</span> ورزشی </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><span>&#58;</span>تبلت </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                دستمال کاغذی
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link rtl-custom" style="direction: rtl;">
+                لامپ LED<span>&#58;</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                تلویزیون
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                ماشین لباس شویی
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                لپتاب
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                هد فون
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                پنکه
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                مسافرتی
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <span>&#58;</span>
+                کتاب
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--Carousel Wrapper-->
+    <div class="container p-0 mt-3">
+      <div
+        id="discount-slider"
+        class="carousel slide carousel-multi-item v-2"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner v-2" role="listbox">
+          <div class="carousel-item active">
+            <div class="col-12 col-md-4">
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h3
+                    class="card-title ml-4 d-block"
+                    style="direction: rtl; color: #2ca5fa;"
+                  >
+                    20% تخفیف روی موبایلها <br />
+                    و بیشتر
+                  </h3>
+                  <div class="row no-gutters">
+                    <div class="col-6 col-md-12 col-lg-7 border-0">
+                      <ul class="list-group border-0">
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Apple</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Samsung</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Micro max</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Nokia</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;HTC</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Sony</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-5 d-md-none d-lg-block">
+                      <img
+                        src="img/discount-slider-mobile.jpg"
+                        class="w-100 h-100 img-fluid"
+                        alt="mobile"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
+              <div class="card mb-2">
+                <div class="card-body custom-card-bg-primary">
+                  <h3 class="card-title ml-4 d-block" style="direction: rtl;">
+                    50% تخفیف مد و پوشاک <br />
+                    و بیشتر
+                  </h3>
+                  <ul class="list-group bg-transparent border-0">
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;انواع کیف</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;کمربند</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;بوت</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;پالتو و کاپشن</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;بدلیجات</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;کراوات و کلاه</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
+              <div class="card mb-2">
+                <div class="card-body custom-card-bg-secondary">
+                  <h3
+                    class="card-title ml-4 d-block text-primary"
+                    style="direction: rtl;"
+                  >
+                    20% تخفیف غیر رسمی <br />
+                    و بیشتر
+                  </h3>
+                  <ul class="list-group bg-transparent border-0">
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;لباس زیر</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;وسایل آرایش مو</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;کلاه و دستکش</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;لباس روزمره</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;روسری</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #ffffff;"
+                        ></i
+                        >&emsp;لباس چرم</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
+              <div class="card mb-2">
+                <div class="card-body">
+                  <h3
+                    class="card-title ml-4 d-block"
+                    style="direction: rtl; color: #2ca5fa;"
+                  >
+                    20% تخفیف روی موبایلها <br />
+                    و بیشتر
+                  </h3>
+                  <div class="row no-gutters">
+                    <div class="col-6 col-md-12 col-lg-7 border-0">
+                      <ul class="list-group border-0">
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Apple</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Samsung</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Micro max</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Nokia</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;HTC</a
+                          >
+                        </li>
+                        <li class="list-group-item border-0">
+                          <a href="#" class="card-link text-dark"
+                            ><i
+                              class="fas fa-caret-right"
+                              style="color: #2ca5fa;"
+                            ></i
+                            >&emsp;Sony</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-5 d-md-none d-lg-block">
+                      <img
+                        src="img/discount-slider-mobile.jpg"
+                        class="w-100 h-100 img-fluid"
+                        alt="mobile"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
+              <div class="card mb-2">
+                <div class="card-body custom-card-bg-primary">
+                  <h3 class="card-title ml-4 d-block" style="direction: rtl;">
+                    50% تخفیف مد و پوشاک <br />
+                    و بیشتر
+                  </h3>
+                  <ul class="list-group bg-transparent border-0">
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;انواع کیف</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;کمربند</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;بوت</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;پالتو و کاپشن</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;بدلیجات</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-dark"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #2ca5fa;"
+                        ></i
+                        >&emsp;کراوات و کلاه</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-12 col-md-4">
+              <div class="card mb-2">
+                <div class="card-body custom-card-bg-secondary">
+                  <h3
+                    class="card-title ml-4 d-block text-primary"
+                    style="direction: rtl;"
+                  >
+                    20% تخفیف غیر رسمی <br />
+                    و بیشتر
+                  </h3>
+                  <ul class="list-group bg-transparent border-0">
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;لباس زیر</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;وسایل آرایش مو</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;کلاه و دستکش</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;لباس روزمره</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i class="fas fa-caret-right" style="color: #fff;"></i
+                        >&emsp;روسری</a
+                      >
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                      <a href="#" class="card-link text-white"
+                        ><i
+                          class="fas fa-caret-right"
+                          style="color: #ffffff;"
+                        ></i
+                        >&emsp;لباس چرم</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-md-block">
+          <a
+            class="discount-slider-prev carousel-control-prev"
+            href="#discount-slider"
+            role="button"
+            data-slide="prev"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a
+            class="discount-slider-next carousel-control-next"
+            href="#discount-slider"
+            role="button"
+            data-slide="next"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+    <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script type="text/javascript">
+      jssor_slider1_init();
+    </script>
+  </body>
+</html>
