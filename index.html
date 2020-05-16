@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="css/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>subrosa</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -24,7 +33,46 @@
             </div>
           </div>
           <div class="col-lg-9 col-xl-6 mt-4">
-            <div class="search-box">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button
+                  class="btn bg-white border-0 btn-md m-0 px-3 py-2 z-depth-0 dropdown-toggle"
+                  type="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  هه گروه ها<span class="v-dash">|</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+
+              <input
+                type="text"
+                class="form-control border-0 shadow-none"
+                aria-label="Text input with dropdown button"
+                style="direction: rtl;"
+              />
+
+              <div class="input-group-append">
+                <button
+                  class="btn btn-primary border-0 btn-md m-0 px-3 py-2 z-depth-0"
+                  type="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  جست و جو
+                </button>
+              </div>
+            </div>
+
+            <!-- <div class="search-box">
               <form>
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -62,8 +110,9 @@
                   </div>
                 </div>
               </form>
-            </div>
+            </div> -->
           </div>
+
           <div class="col-xl-3 d-flex justify-content-center cart-bar">
             <div class="login p-3">
               <i class="fas fa-user fa-2x"></i>
@@ -699,32 +748,45 @@
             </div>
           </div>
         </div>
+        <div class="d-none d-md-block">
+          <a
+            class="discount-slider-prev carousel-control-prev"
+            href="#discount-slider"
+            role="button"
+            data-slide="prev"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </a>
+          <a
+            class="discount-slider-next carousel-control-next"
+            href="#discount-slider"
+            role="button"
+            data-slide="next"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
       </div>
     </div>
-    <!--.Carousel Wrapper-->
+
+    <!-- JQuery -->
     <script
-      src="https://kit.fontawesome.com/cc16eff297.js"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
     ></script>
+    <!-- Bootstrap tooltips -->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
     ></script>
+    <!-- Bootstrap core JavaScript -->
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
     ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript" src="js/jssor.slider.min.js"></script>
-    <script src="js/mdb.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/mdb.min.js"></script>
     <script type="text/javascript">
       jssor_slider1_init();
     </script>
